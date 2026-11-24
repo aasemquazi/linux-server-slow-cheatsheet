@@ -4,7 +4,7 @@
 @page { size: A4; margin: 0; }
 * { box-sizing: border-box; margin: 0; padding: 0; }
 body { font-family: "DejaVu Sans", Arial, sans-serif; color: #1c2230; font-size: 8.7pt; line-height: 1.28; }
-.page { width: 210mm; height: 297mm; padding: 9mm 11mm 8mm; position: relative; overflow: hidden; page-break-after: always; }
+.page { width: 210mm; height: 297mm; padding: 8mm 11mm 6mm; position: relative; overflow: hidden; page-break-after: always; }
 .page:last-child { page-break-after: auto; }
 header { background: #10233f; color: #fff; border-radius: 8px; padding: 9px 14px 10px; margin-bottom: 9px; }
 header .brand { font-size: 8pt; letter-spacing: 1.5px; text-transform: uppercase; color: #ffb547; font-weight: bold; }
@@ -18,7 +18,7 @@ code { font-family: "DejaVu Sans Mono", monospace; background: #f1f3f7; border-r
 .row > code { flex: 0 0 71mm; display: inline-block; white-space: nowrap; }
 .row .d { flex: 1; }
 .look { color: #a14b00; font-weight: bold; }
-.box { background: #fff6e6; border: 1px solid #ffd79a; border-radius: 6px; padding: 7px 10px; margin-top: 7px; }
+.box { background: #fff6e6; border: 1px solid #ffd79a; border-radius: 6px; padding: 6px 10px; margin-top: 5px; }
 .box h3 { font-size: 10.4pt; color: #10233f; margin-bottom: 3px; }
 .box p { font-style: italic; }
 footer { margin-top: 6px; font-size: 8pt; color: #5c6577; display: flex; justify-content: space-between; border-top: 1px solid #dfe3ea; padding-top: 4px; }
@@ -86,8 +86,8 @@ footer { margin-top: 6px; font-size: 8pt; color: #5c6577; display: flex; justify
 </div>
 
 <div class="box">
-  <h3>Interview mein aise bolo</h3>
-  <p>"Server slow ho toh main pehle uptime se load check karta hoon, phir top se dekhta hoon kaunsa process CPU le raha hai, free -h se memory aur df -h se disk check karta hoon. Uske baad journalctl aur application ke logs padhta hoon, systemctl se service ka status dekhta hoon, aur last mein network check karta hoon."</p>
+  <h3>How to answer this in an interview</h3>
+  <p>"First, I check the load with uptime. Then I use top to see which process is using the most CPU, free -h for memory and df -h for disk space. After that, I read the logs with journalctl and the application's own logs, check the service status with systemctl, and finally check the network."</p>
 </div>
 
 <footer><span>Data Binaries · www.databinaries.com</span><span>Instagram: @databinaries</span></footer>
